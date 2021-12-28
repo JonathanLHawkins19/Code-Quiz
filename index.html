@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href=".assets/style.css" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Code Quiz</title>
-    <script src=".assets/script.js"></script>
+    <script src="./assets/script.js"></script>
 </head>
 <body>
-   <!-- Start Quiz--> 
-   <div class="start_btn">Start Quiz</div>
+   <div class="buttons">
+       <button class="start">start</button>
+    </div>
 
    <!-- Info Box -->
    <div class="info_box">
@@ -29,6 +30,165 @@
             <button class="restart">Continue</button>
         </div>
     </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Code Quiz</div>
+            <div class="timer">
+                <div class="time_text">Time Left</div>
+                <div.class="timer_sec">18</div>
+            </div>
+        </header>
+    </div>
+    <br>
+    <section>
+        <div class="question">
+            <span>What is the correct syntax to close the title element?</span>
+        </div>
+        <div class="answer_list"></div>
+        <div id="answer-buttons" class="btn-grid">
+            <button class="btn">Answer 1</button>
+            <button class="btn">Answer 2</button>
+            <button class="btn">Answer 3</button>
+            <button class="btn">Answer 4</button>
+        </div> 
+            <div class="option">
+                <span>/title</span> 
+            </div>
+            <div class="option">
+                <span>!title</span> 
+            </div>
+            <div class="option">
+                <span>?title</span> 
+            </div>
+            <div class="option">
+                <span>endtitle</span> 
+            </div>
+        </div>
+    </section>
+    <br>
+    <button class="next_btn">Next Question</button>
+    <section>
+        <div class="question_2">
+            <span>What is the purpose of the body element?</span>
+        </div>
+        <div class="answer_list"></div>
+        <div id="answer-buttons" class="btn-grid">
+            <button class="btn">Answer 1</button>
+            <button class="btn">Answer 2</button>
+            <button class="btn">Answer 3</button>
+            <button class="btn">Answer 4</button> 
+        </div>
+            <div class="option">
+                <span>The body element connects to the head element.</span> 
+            </div>
+            <div class="option">
+                <span>This is where all of the webpage's content will go.</span> 
+            </div>
+            <div class="option">
+                <span>The body element will an empy placeholder.</span>
+        </div>
+    </section>
+    <br>
+    <button class="next_btn">Next Question</button>
+    <section>
+        <div class="question_3">
+            <span>What does HTML stand for?</span>
+        </div>
+        <div class="answer_list"></div>
+        <div id="answer-buttons" class="btn-grid">
+            <button class="btn">Answer 1</button>
+            <button class="btn">Answer 2</button>
+            <button class="btn">Answer 3</button>
+            <button class="btn">Answer 4</button>
+        </div> 
+            <div class="option">
+                <span>Hyper Text Multiple Language</span> 
+            </div>
+            <div class="option">
+                <span>Hyper Text Markup Language</span> 
+            </div>
+            <div class="option">
+                <span>Hyper Text Preprocessor</span> 
+            </div>
+            <div class="option">
+                <span>Hyper Tool Multi Language</span> 
+            </div>
+    </section>
+    <br>
+    <button class="next_btn">Next Question</button>
+    <section>
+        <div class="question_4">
+            <span>What does CSS stand for?</span>
+        </div>
+        <div class="answer_list"></div>
+        <div id="answer-buttons" class="btn-grid">
+            <button class="btn">Answer 1</button>
+            <button class="btn">Answer 2</button>
+            <button class="btn">Answer 3</button>
+            <button class="btn">Answer 4</button> 
+        </div>
+            <div class="option">
+                <span>Computer Style Sheet</span> 
+            </div>
+            <div class="option">
+                <span>Common Style Sheet</span> 
+            </div>
+            <div class="option">
+                <span>Cascading Style Sheet</span> 
+            </div>
+            <div class="option">
+                <span>Colorful Style Sheet</span> 
+            </div>
+    </section>
+    <br>
+    <button class="next_btn">Next Question</button>
+    <!-- Quiz Box Footer-->
+    <footer>
+        <div class="other_question">
+            <span><p>5</p>of<p>5</p>Question</span>
+        </div>
+        <br>
+        <button class="next_btn">Next Question</button>
+
+        <div class="question_5">
+            <span>Which of the following is NOT a good reason for version control?</span>
+        </div>
+        <div class="answer_list"></div>
+        <div id="answer-buttons" class="btn-grid">
+            <button class="btn">Answer 1</button>
+            <button class="btn">Answer 2</button>
+            <button class="btn">Answer 3</button>
+            <button class="btn">Answer 4</button>
+        </div> 
+            <div class="option">
+                <span>Version control allows the codebase to be modified and tested without interrupting the user experience.</span> 
+            </div>
+            <div class="option">
+                <span>Version control allows changes to the codebase to be tested individually.</span> 
+            </div>
+            <div class="option">
+                <span>Version control allows teams to work on individual features synchronously.</span> 
+            </div>
+            <div class="option">
+                <span>Version control allows features to ship directly to the main branch.</span>
+    </footer>
+  </div>
+
+  <!-- Result Box -->
+  <div class="result_box">
+      <div class="icon">
+      </div>
+      <div class="complete_text">You've completed the quiz!</div>
+      <div class="score_text">
+          <span>Sorry. You only got <p>3</p><p>out of<p>5</p></span>
+      </div>
+      <div class="buttons">
+          <button class="restart">Replay Quiz</button>
+          <button class="quit">Quit Quiz</button>
+      </div>
+  </div>
 
 </body>
 </html>

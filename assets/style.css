@@ -23,3 +23,23 @@ body{
     border-radius: 9px;
 }
 
+.info_box .info_title{
+    height: 69px;
+    width: 96%;
+    border-bottom: 4px solid green;
+    display: flex;
+    align-items: center;
+    padding: 0 35px;
+    font-size: 18px;
+    font-weight: 660;
+}
+
+.info_box .info_list{
+    padding: 18px 35px;
+}
+
+.info_box .info_list .info{
+    margin: 5px 0;
+    font-size: 18px;
+}
+
